@@ -1,0 +1,11 @@
+import time
+from plyer import notification
+
+while True:
+    notification.notify(
+        title="Plz drink water",
+        message="you have to drink water",
+        timeout=5
+
+    )
+    time.sleep(60*60)
